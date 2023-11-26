@@ -4,7 +4,7 @@ import torch
 model = BertForMaskedLM.from_pretrained("bert_model")
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertForSequenceClassification.from_pretrained('bert_model', num_labels=2).to('cuda')
+model = BertForSequenceClassification.from_pretrained('bert_model', num_labels=2)
 input_text = "iptables: denied incoming connection from 192.168.0.3 to port 22 Nov 20 12:46:01 server kernel: [1234567.891] iptables: blocked outgoing connection to 8.8.8.8 on port 53"
 
 # 텍스트를 토큰화하고 모델 입력 형식으로 변환
