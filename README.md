@@ -8,8 +8,8 @@
 제안하는 방법은 IoT 기기에서 추출한 로그 데이터로 학습시킨 BERT를 활용하는 방법으로, 딥러닝 알고리즘 기반의 포렌식 도구를 개발하여 기존 포렌식의 복잡성을 해결하고자 한다.
 
 ## Results
-* Main code, table, graph, comparison, ...
-* Web URL
+* [capstonDesign.ipynb](capstonDesign.ipynb)
+* [model_compute.py](model_compute.py)
 
 ## Conclusion
 학습시킨 BERT 모델을 포렌식 도구에 적용하고, 해당 포렌식 도구를 실제 IoT 기기에서 작동시키며 활용해볼 수 있음을 기대할 수 있다.
@@ -26,3 +26,6 @@
 [4] 박현진, 인공지능(AI) 언어모델 ‘ 버트 는 무엇인가”, 인공지능 신문
 
 ## Reports
+* [기초조사서(docx)](reports/CD_이웃(기초조사서).docx) 
+* [중간보고서(pdf)](reports/CD_이웃(중간보고서).pdf)
+* [최종보고서(pdf)](reports/CD_이웃(최종보고서).pdf)
